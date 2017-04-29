@@ -4,7 +4,7 @@
   <img src=img/course-6-roadmap.png alt="Course 6 Roadmap" width="500px"/>
 </p>
 
-Draws a simple force graph of all classes in Course 6 with directed edges indicated prerequisites.
+Draws a simple force graph of all classes in Course 6 at MIT with directed edges indicated prerequisites.
 
 ## Usage
 
