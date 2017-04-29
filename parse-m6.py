@@ -49,7 +49,7 @@ def build_dict(files):
 
 def jsonify(nd, pd):
     with open("data.csv", 'w+') as f:
-        f.write("source,target,value,class");
+        f.write("source,target,value,class\n");
         for i in pd:
             for j in pd[i]:
                 f.write(j + "," + i + ",1,test\n");
