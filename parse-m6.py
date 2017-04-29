@@ -13,7 +13,7 @@ def build_dict(files):
 
     def degen_cases(e):
         if e == "permission" or e == "Permission" or e == "" or e == "\n" or \
-            e == "of" or e == "instructor\n" or e == "None\n":
+            e == "of" or e == "instructor\n" or e == "Instructor" or e == "None\n" or e == "None." or e == "None.\n":
             return False
         return True
 
@@ -24,7 +24,6 @@ def build_dict(files):
 
         search = False
         for line in content:
-            # TODO if line has matching <p><h3> tag, get course number and title
             if line[0:7] == "<p><h3>":
                 course_num = line[7:line.index(' ')].strip()
                 if "J" in course_num:
@@ -36,7 +35,6 @@ def build_dict(files):
                 search = True
 
             if line[0:12] == "<br>Prereq: " and search == True:
-            # TODO if line has matching <br>Prereq: tag, get course numbers
                 tmp_prereqs = re.sub("[<].*?[>]", "", line[12:]).split(" or ")
 
                 print 'tmp_prereqs:', tmp_prereqs
@@ -47,15 +45,18 @@ def build_dict(files):
                 prereq_dict[course_num] = prereqs
                 search = False
 
-        print name_dict
-        print prereq_dict
+    return name_dict, prereq_dict
 
-def jsonify(d):
-    pass
+def jsonify(nd, pd):
+    with open("data.csv", 'w+') as f:
+        f.write("source,target,value,class");
+        for i in pd:
+            for j in pd[i]:
+                f.write(j + "," + i + ",1,test\n");
 
 if __name__ == '__main__':
     # TODO Add automatic curls or wgets to automatically get these pages
     # files = ['m6a.txt', 'm6b.txt', 'm6c.txt']
     files = ['m6.txt']
-    d = build_dict(files)
-    jsonify(d)
+    nd, pd = build_dict(files)
+    jsonify(nd, pd)

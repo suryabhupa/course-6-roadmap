@@ -206,7 +206,7 @@
 <br><img alt="______" src="/icns/hr.gif"></h3>
 <img width=16 height=16 align="bottom" alt="Undergrad" title="Undergrad" src="/icns/under.gif">  (<img width=16 height=16 align="bottom" alt="Spring" title="Spring" src="/icns/spring.gif">)
 <br>(Same subject as <A HREF="m2b.html#2.793">2.793[J]</A>, <A HREF="m20a.html#20.330">20.330[J]</A>)
-<br>Prereq: <a href="./search.cgi?search=&cred=p2" title="8.02, 8.021, 8.022">8.02</a>; <a href="m2a.html#2.005">2.005</a>, <a href="m6a.html#6.021">6.021</a>, or permission of instructor, <I><a href="m20a.html#20.309">20.309</a></I>
+<br>Prereq: <a href="./search.cgi?search=&cred=p2" title="8.02, 8.021, 8.022">8.02</a>; <a href="m2a.html#2.005">2.005</a>, <a href="m6a.html#6.021">6.021</a>, <I><a href="m20a.html#20.309">20.309</a></I>
 <br>Units: 4-0-8
 <br><img alt="______" src="/icns/hr.gif">
 <br>Introduction to electric fields, fluid flows, transport phenomena and their application to biological systems. Flux and continuity laws, Maxwell's equations, electro-quasistatics, electro-chemical-mechanical driving forces, conservation of mass and momentum, Navier-Stokes flows, and electrokinetics. Applications include biomolecular transport in tissues, electrophoresis, and microfluidics.
@@ -618,7 +618,7 @@
 <br><img alt="______" src="/icns/hr.gif"></h3>
 <img width=16 height=16 align="bottom" alt="Undergrad" title="Undergrad" src="/icns/under.gif">  (<img width=16 height=16 align="bottom" alt="Spring" title="Spring" src="/icns/spring.gif">)
 <br>(Same subject as <A HREF="m20a.html#20.345">20.345[J]</A>)
-<br>Prereq: <a href="./search.cgi?search=&cred=b" title="7.012, 7.013, 7.014, 7.015, 7.016">7.012</a>, and <a href="m2a.html#2.004">2.004</a> or <a href="m6a.html#6.003">6.003</a>; or <a href="m20a.html#20.309">20.309</a>; or permission of instructor
+<br>Prereq: <a href="./search.cgi?search=&cred=b" title="7.012, 7.013, 7.014, 7.015, 7.016">7.012</a>, <a href="m2a.html#2.004">2.004</a>, <a href="m6a.html#6.003">6.003</a> <a href="m20a.html#20.309">20.309</a>;
 <br>Units: 2-7-3
 <br><img alt="______" src="/icns/hr.gif">
 <br>In-depth examination of instrumentation design, principles and techniques for studying biological systems, from single molecules to entire organisms. Lectures cover optics, advanced microscopy techniques, electronics for biological measurement, magnetic resonance imaging, computed tomography, MEMs, microfluidic devices, and limits of detection. Students select two lab exercises during the first half of the semester and complete a final design project in the second half. Lab emphasizes design process and skillful realization of a robust system. Enrollment limited; preference to Course 20 majors and minors.
@@ -1483,7 +1483,7 @@
 <p><h3>6.456 Array Processing
 <br><img alt="______" src="/icns/hr.gif"></h3>
 <img width=16 height=16 align="bottom" alt="Not offered academic year 2017-2018" title="Not offered academic year 2017-2018" src="/icns/nooffer.gif"><img width=16 height=16 align="bottom" alt="Graduate" title="Graduate" src="/icns/grad.gif">  (<img width=16 height=16 align="bottom" alt="Fall" title="Fall" src="/icns/fall.gif">)
-<br>Prereq: <a href="m6b.html#6.341">6.341</a>; <a href="m2b.html#2.687">2.687</a>, or <a href="m6a.html#6.011">6.011</a> and <a href="m18a.html#18.06">18.06</a>
+<br>Prereq: <a href="m6b.html#6.341">6.341</a> <a href="m2b.html#2.687">2.687</a> <a href="m6a.html#6.011">6.011</a> <a href="m18a.html#18.06">18.06</a>
 <br>Units: 3-2-7
 <br><img alt="______" src="/icns/hr.gif">
 <br>Adaptive and non-adaptive processing of signals received at arrays of sensors. Deterministic beamforming, space-time random processes, optimal and adaptive algorithms, and the sensitivity of algorithm performance to modeling errors and limited data. Methods of improving the robustness of algorithms to modeling errors and limited data are derived.  Advanced topics include an introduction to matched field processing and physics-based methods of estimating signal statistics. Homework exercises providing the opportunity to implement and analyze the performance of algorithms in processing data supplied during the course.
@@ -1965,7 +1965,7 @@
 <br><img alt="______" src="/icns/hr.gif">
 <br>Describes current techniques used to analyze and fabricate nanometer-length-scale structures and devices. Emphasizes imaging and patterning of nanostructures, including fundamentals of optical, electron (scanning, transmission, and tunneling), and atomic-force microscopy; optical, electron, ion, and nanoimprint lithography, templated self-assembly, and resist technology. Surveys substrate characterization and preparation, facilities, and metrology requirements for nanolithography. Addresses nanodevice processing methods, such as liquid and plasma etching, lift-off, electroplating, and ion-implant. Discusses applications in nanoelectronics, nanomaterials, and nanophotonics.
 <br><I>K. K. Berggren</I><br>
-</p><!--end--> 
+</p><!--end-->
 
 <p><h3>6.801 Machine Vision
 <br><img alt="______" src="/icns/hr.gif"></h3>
@@ -2164,7 +2164,7 @@
 <br>(New)
 <br><img alt="______" src="/icns/hr.gif"></h3>
 <img width=16 height=16 align="bottom" alt="Graduate" title="Graduate" src="/icns/grad.gif">  (<img width=16 height=16 align="bottom" alt="Fall" title="Fall" src="/icns/fall.gif">)
-<br>Prereq: Permission of Instructor
+<br>Prereq: permission of instructor
 <br>Units: 3-0-9
 <br>URL: <a href="http://web.mit.edu/6.826/www/">http://web.mit.edu/6.826/www/</a>
 <br><a href="editcookie.cgi?add=6.826"><img align="bottom" border=1 width=16 height=16 alt="Add to schedule" title="Add to schedule" src="/icns/button0.gif"></a> <b>Lecture:</b> <i>MW1-2.30</i> (<a href="http://whereis.mit.edu/map-jpg?mapterms=56">56-154</a>)<!--s-->
@@ -2559,7 +2559,7 @@
 <br><img alt="______" src="/icns/hr.gif"></h3>
 <img width=16 height=16 align="bottom" alt="Graduate" title="Graduate" src="/icns/grad.gif">  (<img width=16 height=16 align="bottom" alt="Spring" title="Spring" src="/icns/spring.gif">)
 <br>(Same subject as <A HREF="mMASa.html#MAS.731">MAS.731[J]</A>)
-<br>Prereq: Must have read "The Society of Mind" and "The Emotion Machine"; permission of instructor
+<br>Prereq: permission of instructor
 <br>Units: 2-0-10
 <br>URL: <a href="http://web.media.mit.edu/~dustin/6.868/">http://web.media.mit.edu/~dustin/6.868/</a>
 <br><img alt="______" src="/icns/hr.gif">
@@ -3221,4 +3221,3 @@
 <br>Consult Department Undergraduate Office<br>Textbooks arranged individually
 </p><!--end-->
 </td></tr></table>
-
