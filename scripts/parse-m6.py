@@ -48,7 +48,7 @@ def build_dict(files):
     return name_dict, prereq_dict
 
 def jsonify(nd, pd):
-    with open("data.csv", 'w+') as f:
+    with open("../data/data.csv", 'w+') as f:
         f.write("source,target,value,class\n");
         for i in pd:
             for j in pd[i]:
@@ -57,6 +57,6 @@ def jsonify(nd, pd):
 if __name__ == '__main__':
     # TODO Add automatic curls or wgets to automatically get these pages
     # files = ['m6a.txt', 'm6b.txt', 'm6c.txt']
-    files = ['m6.txt']
+    files = ['../data/m6.txt']
     nd, pd = build_dict(files)
     jsonify(nd, pd)
